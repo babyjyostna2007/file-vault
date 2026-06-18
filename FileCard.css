@@ -1,0 +1,103 @@
+.file-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.file-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.file-card-icon {
+  font-size: 2.5rem;
+}
+
+.file-card-info {
+  flex: 1;
+}
+
+.file-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1a1a2e;
+  word-break: break-all;
+  margin-bottom: 4px;
+}
+
+.file-meta {
+  font-size: 0.8rem;
+  color: #718096;
+  margin-bottom: 2px;
+}
+
+.file-card-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-view {
+  flex: 1;
+  padding: 7px 0;
+  background: #ebf4ff;
+  color: #0057ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-view:hover {
+  background: #d6eaff;
+}
+
+.btn-delete {
+  flex: 1;
+  padding: 7px 0;
+  background: #fff5f5;
+  color: #e53e3e;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-delete:hover {
+  background: #fed7d7;
+}
+
+.confirm-row {
+  display: flex;
+  gap: 6px;
+  flex: 1;
+}
+
+.btn-confirm-yes {
+  flex: 1;
+  padding: 7px 0;
+  background: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.btn-confirm-no {
+  flex: 1;
+  padding: 7px 0;
+  background: #edf2f7;
+  color: #4a5568;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
